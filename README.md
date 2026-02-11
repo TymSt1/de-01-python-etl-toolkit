@@ -54,7 +54,7 @@ py -m pytest tests/ -v
 │   ├── transform.py        # Clean, validate, enrich data
 │   ├── load.py             # Upsert to PostgreSQL
 │   └── main.py             # CLI entry point
-├── tests/                  # 19 tests (extract + transform)
+├── tests/                  # 26 tests (extract + transform + load)
 ├── data/raw/               # Source weather files
 ├── docker-compose.yml      # PostgreSQL container
 └── requirements.txt
